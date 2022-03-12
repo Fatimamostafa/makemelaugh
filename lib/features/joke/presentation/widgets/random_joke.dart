@@ -56,8 +56,9 @@ class _RandomJokeState extends State<RandomJoke> {
       isTapped = true;
     });
     Future.delayed(const Duration(seconds: 3)).then((value) {
-      context.read<JokeBloc>().add(GetRandomJoke());
+      if (mounted) {
+        context.read<JokeBloc>().add(GetRandomJoke());
+      }
     });
-
   }
 }

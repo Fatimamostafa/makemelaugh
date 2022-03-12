@@ -1,4 +1,0 @@
-#Wed Mar 02 02:22:23 BDT 2022
-base.0=/Users/fatimamostafa/StudioProjects/makemelaugh/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
